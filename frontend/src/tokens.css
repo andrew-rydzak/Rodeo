@@ -1,0 +1,113 @@
+/* font color tokens */
+
+.pastiche {
+   color: #FAF6F0;
+}
+
+.burnt-umber {
+   color: #B16C47;
+}
+
+.rust {
+   color: #96452E;
+}
+
+.prairie-green {
+   color: #6E7C6B;
+}
+
+.cloud-gray {
+   color: #E4E4E4;
+}
+
+.well-water {
+   color: #546A73;
+}
+
+.golden-flax {
+   color: #C29D62;
+}
+
+.white {
+   color: #ffffff;
+}
+
+.black {
+   color: #000000;
+}
+
+.storm-gray {
+   color: #9A9A9A;
+}
+
+.font-black {
+   color: #151515;
+}
+
+.night-sky {
+   color: #13100E;
+}
+
+/* Background color tokens */
+
+.bg-pastiche {
+   background-color: #FAF6F0;
+}
+
+.bg-burnt-umber {
+   background-color: #B16C47;
+}
+
+.bg-rust {
+   background-color: #96452E;
+}
+
+.bg-prairie-green {
+   background-color: #6E7C6B;
+}
+
+.bg-cloud-gray {
+   background-color: #E4E4E4;
+}
+
+.bg-well-water {
+   background-color: #546A73;
+}
+
+.bg-golden-flax {
+   background-color: #C29D62;
+}
+
+.bg-white {
+   background-color: #ffffff;
+}
+
+.bg-black {
+   background-color: #000000;
+}
+
+.bg-storm-gray {
+   background-color: #9A9A9A;
+}
+
+.bg-font-black {
+   background-color: #151515;
+}
+
+.bg-night-sky {
+   background-color: #13100E;
+}
+
+/* font tokens */
+
+.alfa-slab-one {
+   font-family: 'Alfa Slab One', cursive;
+}
+
+.stint-ultra-expanded {
+   font-family: 'Stint Ultra Expanded', cursive;
+}
+
+.dm-sans {
+   font-family: 'DM Sans', sans-serif;
+}

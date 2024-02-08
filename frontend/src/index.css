@@ -1,0 +1,178 @@
+/* Contains css that applies to global styles, "mostly" */
+
+/* Setting the font family */
+body {
+   font-family: 'DM Sans', sans-serif;
+   width: fit-content;
+}
+
+footer{
+  background-color: #faf6f0;
+}
+
+.title{
+  font-family:'Alfa Slab One';
+}
+
+.secondary-title{
+  font-family:'Stint Ultra Expanded';
+}
+
+.content{
+  font-family:'DM Sans';
+}
+
+.header-link:hover {
+   text-decoration:underline;
+ }
+
+ /* NRRCA header ribbon */
+ .ribbon {
+   padding: 1rem 2.5rem 1rem 1.5rem;
+   clip-path: polygon(0% 0%, 100% 0%, calc(100% - 20px) 50%, 100% 100%, 0% 100%);
+ }
+
+ .ribbon:focus,
+ .ribbon:active,
+ .ribbon:hover {
+   color: #FAF6F0;
+   text-decoration:none;
+ }
+
+ /* Buger botton tollger */
+ .navbar-toggler{
+  color:#faf6f0;
+ }
+ .navbar-toggler:focus{
+  box-shadow: none;
+ }
+
+ /* How it works section  */
+ .down-arrow {
+   box-sizing: border-box;
+   height: 5vw;
+   width: 5vw;
+   border-style: solid;
+   border-color: #c29d62;
+   border-width: 0px 2px 2px 0px;
+   transform: rotate(45deg);
+   transition: border-width 150ms ease-in-out;
+   margin-bottom:20px;
+ }
+ 
+ /* header links */
+ .nav-link{
+  padding:0;
+  font-size: large;
+ }
+
+ /* used for anchor tag offset when user clicks and scrolls to a section */
+ .section-header{
+  padding-top: 60px;
+  padding-bottom: 60px;
+ }
+
+ /* used in for holding forms, sign in, sign up */
+ .form-container-styles{
+  z-index: 1;
+  border-style: dashed;
+  padding: 1rem;
+  border-width: 3px;
+  border-color: rgb(162 169 157);
+  border-radius: 15px;
+  display: block;
+  background-color: #faf6f0;
+  width: 50%;
+  height:fit-content;
+  max-height:70vh;
+  position: fixed;
+  overflow: auto;
+  min-width: 200px;
+  top: 25%; 
+  margin-left:auto;
+  margin-right:auto;
+  transform: translate(50%,0)
+};
+.form-text{
+  color: #6E7C6B; 
+  font-weight: bold;
+}
+.form-button-container{
+   display: flex; 
+   flex-wrap: wrap;
+   justify-Content: flex-end; 
+  }
+.form-button{ 
+  margin: 10px; 
+  margin-bottom: 0px; 
+}
+
+/* Scrollbars */
+/* width */
+.form-container-styles::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+.form-container-styles::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.form-container-styles::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.form-container-styles::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Responsive header for small screens */
+@media screen and (max-width: 450px) {
+  .navbar-toggler{
+      width: -webkit-fill-available;
+  }
+  .ribbon {
+    padding:0;
+    clip-path:None;
+    text-align: center;
+    width: 100%;
+  }
+  .navbar-toggler {
+    width:inherit;
+  }
+  .navbar-brand {
+    margin-right:0;
+  }
+  /* Make forms centered when screen is small */
+  .form-container-styles {
+    /* left:7%; */
+    top:20%;
+    width:100%;
+    transform:none;
+  }
+}
+
+
+/* Section for responsive designs */
+html {
+  font-size: calc(60% + 0.8vmin);
+}
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+* {
+  font-size: 1rem;
+}
+h1 {
+  font-size: 2.2rem;
+}
+h2 {
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}

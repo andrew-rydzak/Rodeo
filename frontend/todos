@@ -1,0 +1,56 @@
+1. Make figma representation of login/signup, user logged in etc.
+2. make a landing page after a user has signed in
+3. fix forms so that they are mobile friendly/ small screen view is not wide enough
+   for sign in / sign up
+4. password reset
+5. Account acknowledgement after sign in
+
+---
+
+-Make sign up form and sign in form responseive and pretty for mobile view!
+-add back end testing for loacal dev env
+-make a 404 not found page when no incorrect address (<Route path="" component={NotFound} />)
+-make database tables
+-make figma UI for user is loggin in
+
+-Fix header underline styles for secions that the user is on. e.g. when on the section for how it
+works the header for it is underlined.
+-Establish state for the sign up form and security
+
+-App is being rendered twice in current state
+
+-verify the #sections in the route distlay are approperiate
+
+-The little down arrows in the how it works section breaks randomly on mobile view, may be a width thing.
+
+-Change the form so that users actually sign up. this will no longer be an informational draft of the site.
+
+-change the site to be more bluf
+
+-list of categories:
+"Bareback Riding","Steer Wrestling","Team Roping","Saddle Bronc Riding","Tie-down Roping","Barrel Racing","Bull Riding"
+
+-fix how it works images and text when going from normal to responsive
+
+Webiste for Contestant
+
+    Upcoming events
+    Evevnts participated in
+    payments recieved
+    active benefits and how to get use them
+    user detail section to update their info
+
+    Show other contestants? should we hide contestants from eachother
+
+User signs up.
+
+    1. User signs up and is directed to login page popup
+    2. user logs in
+    3. first time user is directed to fill in details about themselves to
+           go get to the other sections
+    4. User has already filled out details is presented with a summary page
+           -contians their name and home locations
+           - payments recieved
+           - events participated in
+           -
+        5. User has access to summary header pages
